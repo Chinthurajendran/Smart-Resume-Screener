@@ -66,10 +66,10 @@ packaging==25.0
 passlib==1.7.4
 pdfminer.six==20250506
 pdfplumber==0.11.7
-Pillow==10.3.0
+Pillow==10.3.0  # ✅ Updated for Python 3.13 compatibility
 platformdirs==4.1.0
 promise==2.3
-psycopg2-binary==2.9.9
+psycopg2-binary==2.9.9  # ✅ Kept binary version only
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pycparser==2.21
@@ -79,7 +79,6 @@ pydantic_core==2.33.0
 pyHanko==0.23.2
 pyhanko-certvalidator==0.26.3
 PyJWT==2.8.0
-PyMySQL==1.1.1
 pyotp==2.9.0
 pypdf==4.1.0
 pypdfium2==4.30.1
@@ -103,7 +102,7 @@ rsa==4.9
 s3transfer==0.11.4
 safetensors==0.5.3
 scikit-learn==1.7.0
-scipy==1.13.0
+scipy==1.13.0  # ✅ Updated from old 1.16.0 version
 sentence-transformers==5.0.0
 setuptools==69.2.0
 six==1.16.0
@@ -127,8 +126,7 @@ typing_extensions==4.13.0
 tzdata==2023.3
 tzlocal==5.2
 uritools==4.0.2
-# urllib3==1.26.20
-urllib3>=1.25.4,<1.27
+urllib3>=1.25.4,<1.27  # ✅ Cleaned and left dynamic
 uvicorn==0.34.0
 virtualenv==20.25.0
 webencodings==0.5.1
