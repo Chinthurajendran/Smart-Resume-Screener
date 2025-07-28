@@ -66,10 +66,9 @@ packaging==25.0
 passlib==1.7.4
 pdfminer.six==20250506
 pdfplumber==0.11.7
-Pillow==10.0.0
+Pillow==10.3.0
 platformdirs==4.1.0
 promise==2.3
-psycopg2==2.9.9
 psycopg2-binary==2.9.9
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
@@ -104,7 +103,7 @@ rsa==4.9
 s3transfer==0.11.4
 safetensors==0.5.3
 scikit-learn==1.7.0
-scipy==1.16.0
+scipy==1.13.0
 sentence-transformers==5.0.0
 setuptools==69.2.0
 six==1.16.0
