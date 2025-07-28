@@ -66,7 +66,6 @@ packaging==25.0
 passlib==1.7.4
 pdfminer.six==20250506
 pdfplumber==0.11.7
-Pillow==10.3.0
 platformdirs==4.1.0
 promise==2.3
 psycopg2==2.9.9
